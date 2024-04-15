@@ -7,7 +7,8 @@ import { Foyer } from './foyer.model';
   providedIn: 'root'
 })
 export class FoyerService {
-  private baseUrl = 'http://192.168.1.11:8181/api/foyers';
+  //private baseUrl = 'http://192.168.1.11:8181/api/foyers';
+  private baseUrl = 'http://foyer-api:8181/api/foyers'; // Use the service name
 
   constructor(private http: HttpClient) { }
 
